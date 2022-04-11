@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Stylesheet Files -->
+		<link rel="stylesheet" href="./CSS/style.css" />
+		<link rel="stylesheet" href="./CSS/normalize.css" />
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="./CSS/all.min.css" />
+		<!-- Swiper Library -->
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+		/>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Gaming Design</title>
+	</head>
+	<body>
+		<!-- Start Settings box -->
+		<div class="settings-box">
+			<div class="toggle-settings">
+				<i class="fa-solid fa-gear"></i>
+			</div>
+			<div class="settings-container">
+				<div class="options">
+					<h4>Colors</h4>
+					<ul class="colors-list">
+						<li class="active" data-color="#9f100a"></li>
+						<li data-color="#6DCD0C"></li>
+						<li data-color="#E86830"></li>
+						<li data-color="#66A1EE"></li>
+					</ul>
+				</div>
+				<div class="options">
+					<h4>Random Backgrounds</h4>
+					<div class="random-backgrounds">
+						<span class="yes active" data-bg="yes">Yes</span>
+						<span class="no" data-bg="no">No</span>
+					</div>
+				</div>
+				<button class="reset-options">Reset Options</button>
+			</div>
+		</div>
+		<!-- End Settings box -->
+		<!-- Start Landing Page -->
+		<section class="landing">
+			<div class="overlay"></div>
+			<div class="container">
+				<header>
+					<div class="logo">
+						<i class="fa-solid fa-fire"></i>GAMING
+					</div>
+					<div class="links-container">
+						<ul class="links">
+							<li>
+								<a href="#" data-section=".landing">Home</a>
+							</li>
+							<li>
+								<a href="#" data-section=".about-us"
+									>About Us</a
+								>
+							</li>
+							<li><a href="#" data-section=".guide">Guide</a></li>
+							<li>
+								<a href="#" data-section=".results"
+									>Statistics</a
+								>
+							</li>
+							<li><a href="#" data-section=".news">News</a></li>
+							<li>
+								<a href="#" data-section=".stats">Our Stats</a>
+							</li>
+							<li>
+								<a href="#" data-section=".contact-us"
+									>Contact Us</a
+								>
+							</li>
+						</ul>
+						<i class="fa-solid fa-bars"></i>
+					</div>
+				</header>
+			</div>
+			<div class="intro-text">
+				<h1>Be The <span>BEST</span>Player</h1>
+				<p>We Are The Best Guide You Need To Become A Good Player.</p>
+			</div>
+		</section>
+		<!-- End Landing Page -->
+		<!-- Start About Us -->
+		<section class="about-us">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="info-box">
+					<h2>About Us</h2>
+					<p>
+						Gaming is a Best Gaming Guide You Need. We Will Give You
+						Everything You Need To be Best Player on Any Game Get
+						Source For Video Game Strategy Guides.
+					</p>
+				</div>
+				<div class="image-box">
+					<img src="./imgs/about-sec.svg" alt="pic" />
+				</div>
+			</div>
+		</section>
+		<!-- End About Us -->
+		<!-- Start Guide -->
+		<section class="guide">
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>Most Popular Guide</h2>
+				<!-- Slider main container -->
+				<div class="swiper">
+					<!-- Additional required wrapper -->
+					<div class="swiper-wrapper">
+						<!-- Slides -->
+						<div class="swiper-slide">
+							<img src="./imgs/fortnite.jpg" alt="pic" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./imgs/cod.jpg" alt="pic" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./imgs/apex-legends.jpg" alt="pic" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./imgs/pubg.jpg" alt="pic" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./imgs/god-of-war.jpg" alt="pic" />
+						</div>
+						<div class="swiper-slide">
+							<img src="./imgs/valorant.jpg" alt="pic" />
+						</div>
+						...
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+					<!-- If we need navigation buttons -->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+				</div>
+			</div>
+		</section>
+		<!-- End Guide -->
+		<!-- Start Our Statistics -->
+		<section class="results">
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>Our Players statistics</h2>
+				<div class="game-box">
+					<div class="game-name">PUBG</div>
+					<div class="progress-bar">
+						<span data-progress="95%"></span>
+					</div>
+				</div>
+				<div class="game-box">
+					<div class="game-name">Fortnite</div>
+					<div class="progress-bar">
+						<span data-progress="85%"></span>
+					</div>
+				</div>
+				<div class="game-box">
+					<div class="game-name">League Of Legends</div>
+					<div class="progress-bar">
+						<span data-progress="75%"></span>
+					</div>
+				</div>
+				<div class="game-box">
+					<div class="game-name">Apex Legends</div>
+					<div class="progress-bar">
+						<span data-progress="80%"></span>
+					</div>
+				</div>
+				<div class="game-box">
+					<div class="game-name">Call Of Duty</div>
+					<div class="progress-bar">
+						<span data-progress="70%"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Our Statistics -->
+		<!-- Start Latest News -->
+		<section class="news">
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>Latest News</h2>
+				<div class="news-boxes">
+					<div class="img-box">
+						<img src="./imgs/news-01.jpg" alt="new" />
+						<p>
+							Fortnite Leak Suggests Doom and Family Guy Skins Are
+							Coming
+						</p>
+					</div>
+					<div class="img-box">
+						<img src="./imgs/news-02.webp" alt="new" />
+						<p>
+							PS5 Cat Game Stray Could Get Release Date Info Soon
+						</p>
+					</div>
+					<div class="img-box">
+						<img src="./imgs/news-03.jpg" alt="new" />
+						<p>
+							Sonic the Hedgehog2 Star Idris Elba Reacts to Furry
+							Xbox Controllers
+						</p>
+					</div>
+					<div class="img-box">
+						<img src="./imgs/news-04.webp" alt="new" />
+						<p>
+							PS4 Gamers Can Get a New Free Theme Using This Code
+						</p>
+					</div>
+					<div class="img-box">
+						<img src="./imgs/news-05.jpg" alt="new" />
+						<p>
+							Rumor: New Need for Speed Game May Be Next-Gen Only
+						</p>
+					</div>
+					<div class="img-box">
+						<img src="./imgs/news-06.jpg" alt="new" />
+						<p>
+							Epic Games Store Reveals 2 Free Games for April 14
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Latest News -->
+		<!-- Start Stats -->
+		<section class="stats">
+			<div class="overlay"></div>
+			<h2>Our Awesome Stats</h2>
+			<div class="container">
+				<div class="box">
+					<i class="fa-solid fa-2x fa-user"></i>
+					<span class="number" data-goal="1000">0</span>
+					<span class="text">Players</span>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-2x fa-gamepad"></i>
+					<span class="number" data-goal="100">0</span>
+					<span class="text">Games</span>
+				</div>
+				<div class="box">
+					<i class="fa-solid fa-2x fa-trophy"></i>
+					<span class="number" data-goal="700">0</span>
+					<span class="text">Awards</span>
+				</div>
+			</div>
+		</section>
+		<!-- End Stats -->
+		<!-- Start Contact Us -->
+		<section class="contact-us">
+			<div class="overlay"></div>
+			<div class="container">
+				<h2>Contact Us</h2>
+				<form action="">
+					<div class="left">
+						<input
+							type="text"
+							placeholder="Your Name"
+							name="username"
+						/>
+						<input
+							type="text"
+							placeholder="Your Phone"
+							name="phone"
+						/>
+						<input
+							type="email"
+							placeholder="Your Email"
+							name="email"
+						/>
+						<input
+							type="text"
+							placeholder="Subject"
+							name="subject"
+						/>
+					</div>
+					<div class="right">
+						<textarea
+							name="message"
+							placeholder="Your Message"
+						></textarea>
+						<input type="submit" value="Send" />
+					</div>
+				</form>
+			</div>
+		</section>
+		<!-- End Contact Us -->
+		<!-- Start Footer -->
+		<footer>
+			<div class="text">Created By Hesham <span>&hearts;</span></div>
+			<ul class="social">
+				<li>
+					<a
+						href="https://www.facebook.com/HeshamTarek12345"
+						target="_blank"
+						><i class="fa-brands fa-facebook"></i
+					></a>
+				</li>
+				<li>
+					<a href="https://github.com/HeshamTSayeed" target="_blank"
+						><i class="fa-brands fa-github"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://wa.me/message/GDUGZOS4ANDGI1"
+						target="_blank"
+						><i class="fa-brands fa-whatsapp"></i
+					></a>
+				</li>
+			</ul>
+		</footer>
+		<!-- End Footer -->
+		<script src="./JS/master.js"></script>
+		<script src="./JS/pro.js"></script>
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script>
+			const swiper = new Swiper(".swiper", {
+				// Optional parameters
+				autoplay: {
+					delay: 3000,
+					disableOnInteraction: false,
+				},
+				loop: true,
+				// If we need pagination
+				pagination: {
+					el: ".swiper-pagination",
+					clickable: true,
+				},
+				// Navigation arrows
+				navigation: {
+					nextEl: ".swiper-button-next",
+					prevEl: ".swiper-button-prev",
+				},
+			});
+		</script>
+	</body>
+</html>
